@@ -11,4 +11,4 @@ This project is part of the DBMS Implementation course (COMP9315). The goal is t
    - Redistribution: The tuples from the “buddy” page (located at index 2^d less than the current number of pages) are redistributed between the old and new pages.
    - Hashing: The redistribution is based on considering d+1 bits of the hash value to determine where each tuple goes.
 3. Selection (Querying)
-   This feature involves designing and implementing a comprehensive query scanning data structure to enhance the query processing capabilities of the system.
+   This feature involves designing and implementing a comprehensive query scanning data structure to enhance the query processing capabilities of the system. (in query.c)
